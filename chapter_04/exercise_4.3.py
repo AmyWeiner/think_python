@@ -8,8 +8,8 @@ print bob
 # a parameter n, which is the number of sides. It uses the turtle to 
 # draw a polygon with n sides of length length.
 def polygon(t, length, n):
+    degrees = 360.0 / n
     for i in range(n):
-        degrees = 360.0 / n
         fd(t, length)
         lt(t, degrees)
 
