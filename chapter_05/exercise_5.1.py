@@ -1,6 +1,5 @@
 # The function check_fermat takes four integer parameters, a, b, c, and n, 
 # and checks to see if Fermat's theorem holds.
-
 def check_fermat(a, b, c, n):
     if n > 2 and a**n + b**n == c**n:
         print 'Holy smokes, Fermat was wrong!'
